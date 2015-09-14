@@ -9,3 +9,5 @@ vocabulary.txt  — output of vocabulary.py
 units.py        — parse units from headers.txt 
 units.txt       — output of units.py
 ```
+Unit names are as in [QUDT](http://www.qudt.org), but without prefix
+`http://qudt.org/vocab/unit#`
