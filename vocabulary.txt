@@ -1,0 +1,532 @@
+# Prefixes
+Atto- = 1.0E-18 = a-
+Centi- = 1.0E-2 = c-
+Deca- = 1.0E1 = da-
+Deci- = 1.0E-1 = d-
+Exa- = 1.0E18 = E-
+Femto- = 1.0E-15 = f-
+Giga- = 1.0E9 = G-
+Hecto- = 1.0E2 = h-
+Kilo- = 1.0E3 = k-
+Mega- = 1.0E6 = M-
+Micro- = 1.0E-6 = µ-
+Milli- = 1.0E-3 = m-
+Nano- = 1.0E-9 = n-
+Peta- = 1.0E15 = P-
+Pico- = 1.0E-12 = p-
+Tera- = 1.0E12 = T-
+Yocto- = 1.0E-24 = y-
+Yotta- = 1.0E24 = Y-
+Zepto- = 1.0E-21 = z-
+Zetta- = 1.0E21 = Z-
+
+# Reference units
+Mole = [AmountOfSubstance] = mol
+Unitless = [Dimensionless] = U
+Ampere = [ElectricCurrent] = A
+Meter = [Length] = m
+Candela = [LuminousIntensity] = cd
+Kilogram = [Mass] = kg
+Kelvin = [ThermodynamicTemperature] = K
+SecondTime = [Time] = s
+
+# Derived units:nAbampere = Kilogram**0.5 * SecondTime**-1.0 * Meter**0.5 * SecondTime**-2.0 * Meter**1.5 * Ampere**1.0 = abA
+Abcoulomb = Kilogram**0.5 * Meter**0.5 * SecondTime**-1.0 * Meter**1.5 * SecondTime**1.0 * Ampere**1.0 = abC
+AbcoulombPerSquareCentimeter = Kilogram**0.5 * Meter**-1.5 * Meter**-0.5 * SecondTime**-1.0 * SecondTime**1.0 * Meter**-2.0 * Ampere**1.0 = abC/cm^2
+Abfarad = Meter**-1.0 * SecondTime**2.0 * Meter**1.0 * Meter**-2.0 * Ampere**2.0 * SecondTime**4.0 = abF
+AbfaradPerCentimeter = SecondTime**2.0 * Meter**-2.0 * Unitless**1.0 * Meter**-3.0 * Ampere**2.0 * SecondTime**4.0 = abF/cm
+Abhenry = Meter**1.0 * Meter**-1.0 * SecondTime**2.0 * SecondTime**-2.0 * Kilogram**1.0 * Meter**2.0 * Ampere**-2.0 = abH
+Abohm = Meter**1.0 * SecondTime**-1.0 * Meter**-1.0 * SecondTime**1.0 * Kilogram**1.0 * Meter**2.0 * SecondTime**-3.0 * Ampere**-2.0 = abOhm
+Absiemen = Meter**-1.0 * SecondTime**1.0 * Meter**-2.0 * SecondTime**3.0 * Ampere**2.0 = aS
+Abtesla = Kilogram**0.5 * Meter**-0.5 * SecondTime**-1.0 * Meter**-1.5 * Kilogram**1.0 * SecondTime**-2.0 * Ampere**-1.0 = abT
+Abvolt = Kilogram**0.5 * SecondTime**-2.0 * Meter**1.5 * SecondTime**-1.0 * Meter**0.5 * Kilogram**1.0 * Meter**2.0 * SecondTime**-3.0 * Ampere**-1.0 = abV
+AbvoltCentimeter = Kilogram**1.0 * SecondTime**-3.0 * Meter**3.0 * Ampere**-1.0 = abV cm
+AbvoltPerCentimeter = Kilogram**0.5 * Meter**0.5 * SecondTime**-2.0 * Meter**-0.5 * SecondTime**-1.0 * Meter**1.0 * Kilogram**1.0 * SecondTime**-3.0 * Ampere**-1.0 = abV/cm
+AbvoltSecond = Kilogram**0.5 * SecondTime**-1.0 * Meter**1.5 * Meter**0.5 * SecondTime**-2.0 * Kilogram**1.0 * Meter**2.0 * Ampere**-1.0 = abV-s
+Acre = Meter**2.0 = ac
+AcreFoot = Meter**3.0 = ac-ft
+AmpereHour = Kilogram**0.5 * Meter**0.5 * SecondTime**-1.0 * Meter**1.5 * SecondTime**1.0 * Ampere**1.0 = A-hr
+AmperePerDegree = Unitless**-1.0 * Ampere**1.0 = A/deg
+AmperePerJoule = Meter**-2.0 * Ampere**1.0 * SecondTime**3.0 = A J^-1
+AmperePerMeter = Kilogram**0.5 * Meter**-0.5 * SecondTime**-1.0 = A/m
+AmperePerRadian = Unitless**-1.0 * Ampere**1.0 = A/rad
+AmperePerSquareMeter = Kilogram**0.5 * SecondTime**-1.0 * Meter**-1.5 * Meter**-0.5 * SecondTime**-2.0 * Meter**-2.0 * Ampere**1.0 = A/m^2
+AmpereTurn = Kilogram**0.5 * SecondTime**-1.0 * Meter**0.5 * SecondTime**-2.0 * Meter**1.5 * Unitless**1.0 * Ampere**1.0 = At
+AmpereTurnPerInch = Kilogram**0.5 * Meter**-0.5 * SecondTime**-1.0 = At/in
+AmpereTurnPerMeter = Kilogram**0.5 * Meter**-0.5 * SecondTime**-1.0 = At/m
+Angstrom = Meter**1.0 = Å
+ArcMinute = Unitless**1.0 = arcMin
+ArcSecond = Unitless**1.0 = arcSec
+Are = Meter**2.0 = a
+AstronomicalUnit = Meter**1.0 = au
+AtmosphereStandard = Meter**-1.0 * SecondTime**-2.0 * Kilogram**1.0 = atm
+AtmosphereTechnical = Meter**-1.0 * SecondTime**-2.0 * Kilogram**1.0 = at
+AtomicNumber = Unitless**1.0 = Z
+Bar = Meter**-1.0 * SecondTime**-2.0 * Kilogram**1.0 = bar
+Barn = Meter**2.0 = b
+Barrel = Meter**3.0 = bbl
+Biot = Kilogram**0.5 * SecondTime**-1.0 * Meter**0.5 * SecondTime**-2.0 * Meter**1.5 * Ampere**1.0 = Bi
+BoardFoot = Meter**3.0 = Bf
+BritishThermalUnitInternationalTable = SecondTime**-2.0 * Kilogram**1.0 * Meter**2.0 = Btu
+BritishThermalUnitThermochemical = SecondTime**-2.0 * Kilogram**1.0 * Meter**2.0 = Btu
+BtuFoot = SecondTime**-2.0 * Kilogram**1.0 * Meter**3.0 = Btu-ft
+BtuFootPerSquareFootHourDegreeFahrenheit = Meter**1.0 * Kilogram**1.0 * SecondTime**-3.0 * Kelvin**-1.0 = Btu-ft/(hr-ft^2-degF)
+BtuInch = SecondTime**-2.0 * Kilogram**1.0 * Meter**3.0 = Btu-in
+BtuInchPerSquareFootHourDegreeFahrenheit = Meter**1.0 * Kilogram**1.0 * SecondTime**-3.0 * Kelvin**-1.0 = Btu-in/(hr-ft^2-degF)
+BtuInchPerSquareFootSecondDegreeFahrenheit = Meter**1.0 * Kilogram**1.0 * SecondTime**-3.0 * Kelvin**-1.0 = Btu-in/(ft^2-s-degF)
+BtuPerHour = Kilogram**1.0 * Meter**2.0 * SecondTime**-3.0 = Btu/hr
+BtuPerHourSquareFoot = Kilogram**1.0 * SecondTime**-3.0 = Btu/(hr-ft^2)
+BtuPerPound = SecondTime**-2.0 * Meter**2.0 = Btu/lb
+BtuPerPoundDegreeFahrenheit = SecondTime**-2.0 * Meter**2.0 * Kelvin**-1.0 = Btu/(lb-degF)
+BtuPerPoundDegreeRankine = SecondTime**-2.0 * Meter**2.0 * Kelvin**-1.0 = Btu/(lb-degR)
+BtuPerPoundMoleDegreeFahrenheit = SecondTime**-2.0 * Kilogram**1.0 * Meter**2.0 * Kelvin**-1.0 * Mole**-1.0 = Btu/(lb-mol-degF)
+BtuPerSecond = Kilogram**1.0 * Meter**2.0 * SecondTime**-3.0 = Btu/s
+BtuPerSecondSquareFoot = Kilogram**1.0 * SecondTime**-3.0 = Btu/(s-ft^2)
+BtuPerSquareFoot = SecondTime**-2.0 * Kilogram**1.0 = Btu/ft^2
+BtuPerSquareFootHourDegreeFahrenheit = Kilogram**1.0 * SecondTime**-3.0 * Kelvin**-1.0 = Btu/(hr-ft^2-degF)
+BtuPerSquareFootSecondDegreeFahrenheit = Kilogram**1.0 * SecondTime**-3.0 * Kelvin**-1.0 = Btu/(ft^2-s-degF)
+Bushel = Meter**3.0 = bu
+CalorieNutritional = SecondTime**-2.0 * Kilogram**1.0 * Meter**2.0 = Cal
+CalorieThermochemical = SecondTime**-2.0 * Kilogram**1.0 * Meter**2.0 = cal
+CandelaPerSquareInch = Meter**-2.0 * Candela**1.0 = cd/in^2
+CandelaPerSquareMeter = Meter**-2.0 * Candela**1.0 = cd/m^2
+Candle = Candela**1.0 = cd
+Candlepower = Candela**1.0 = cd
+Carat = Kilogram**1.0 = Nm/ct
+CentimeterOfWater = Meter**-1.0 * SecondTime**-2.0 * Kilogram**1.0 = cmH2O
+CentimeterPerSecond = Meter**1.0 * SecondTime**-1.0 = cm/s
+CentimeterPerSecondSquared = Meter**1.0 * SecondTime**-2.0 = cm/s^2
+Centipoise = Meter**-1.0 * SecondTime**-1.0 * Kilogram**1.0 = cP
+Chain = Meter**1.0 = ch
+CircularMil = Meter**2.0 = cmil
+Clo = Kelvin**1.0 * SecondTime**3.0 = clo
+Cord = Meter**3.0 = C
+Coulomb = Kilogram**0.5 * Meter**0.5 * SecondTime**-1.0 * Meter**1.5 * SecondTime**1.0 * Ampere**1.0 = C
+CoulombMeter = SecondTime**1.0 * Meter**1.0 * Ampere**1.0 = C m
+CoulombPerCubicMeter = SecondTime**1.0 * Meter**-3.0 * Ampere**1.0 = C m^-3
+CoulombPerKilogram = SecondTime**1.0 * Ampere**1.0 = C kg^-1
+CoulombPerMeter = Meter**-1.0 * SecondTime**1.0 * Ampere**1.0 = C/m
+CoulombPerMole = SecondTime**1.0 * Ampere**1.0 * Mole**-1.0 = C mol^-1
+CoulombPerSquareMeter = Kilogram**0.5 * Meter**-1.5 * Meter**-0.5 * SecondTime**-1.0 * SecondTime**1.0 * Meter**-2.0 * Ampere**1.0 = C m^-2
+CoulombSquareMeter = SecondTime**1.0 * Meter**2.0 * Ampere**1.0 = C m^2
+CubicCentimeter = Meter**3.0 = cm^3
+CubicCoulombMeterPerSquareJoule = Meter**-1.0 * Ampere**3.0 * SecondTime**7.0 * Kilogram**-2.0 = C^3 m^3 J^-2
+CubicFoot = Meter**3.0 = ft^3
+CubicFootPerMinute = SecondTime**-1.0 * Meter**3.0 = ft^3/min
+CubicFootPerSecond = SecondTime**-1.0 * Meter**3.0 = ft^3/s
+CubicInch = Meter**3.0 = in^3
+CubicInchPerMinute = SecondTime**-1.0 * Meter**3.0 = in^3/min
+CubicKilometerPerSecondSquared = SecondTime**-2.0 * Meter**3.0 = km^3/s^2
+CubicMeter = Meter**3.0 = m^3
+CubicMeterPerHour = SecondTime**-1.0 * Meter**3.0 = m^3/h
+CubicMeterPerKelvin = Meter**3.0 * Kelvin**-1.0 = m^3/K
+CubicMeterPerKilogram = Meter**3.0 = m^3/kg
+CubicMeterPerKilogramSecondSquared = SecondTime**-2.0 * Meter**3.0 = m^3 kg^-1 s^-2
+CubicMeterPerMole = Meter**3.0 * Mole**-1.0 = m^3 mol^-1
+CubicMeterPerSecond = SecondTime**-1.0 * Meter**3.0 = m^3/s
+CubicMeterPerSecondSquared = SecondTime**-2.0 * Meter**3.0 = m^3/s^2
+CubicMile = Meter**3.0 = mi^3
+CubicMillimeter = Meter**3.0 = m^3
+CubicYard = Meter**3.0 = yd^3
+CubicYardPerMinute = SecondTime**-1.0 * Meter**3.0 = yd^3/min
+Dalton = Kilogram**1.0 = Da
+Day = SecondTime**1.0 = d
+DaySidereal = SecondTime**1.0 = d
+Debye = SecondTime**1.0 * Meter**1.0 * Ampere**1.0 = D
+Decibel = Unitless**1.0 = dB
+DecibelReferredToOneMilliwatt = Unitless**1.0 = dBm
+DegreeAngle = Unitless**1.0 = °
+DegreeCelsius = Kelvin**1.0 = degC
+DegreeCelsiusCentimeter = Meter**1.0 * Kelvin**1.0 = cm-degC
+DegreeCelsiusPerHour = SecondTime**-1.0 * Kelvin**1.0 = degC / hr
+DegreeCelsiusPerMinute = SecondTime**-1.0 * Kelvin**1.0 = degC / m
+DegreeCelsiusPerSecond = SecondTime**-1.0 * Kelvin**1.0 = degC / s
+DegreeCentigrade = Kelvin**1.0 = DegC
+DegreeFahrenheit = Kelvin**1.0 = degF
+DegreeFahrenheitHour = Meter**-1.0 * Kelvin**1.0 * SecondTime**3.0 = degF-hr
+DegreeFahrenheitHourPerBtu = Meter**-2.0 * Kelvin**1.0 * SecondTime**3.0 = degF-hr/Btu
+DegreeFahrenheitPerHour = SecondTime**-1.0 * Kelvin**1.0 = degF / h
+DegreeFahrenheitPerMinute = SecondTime**-1.0 * Kelvin**1.0 = degF / m
+DegreeFahrenheitPerSecond = SecondTime**-1.0 * Kelvin**1.0 = degF / s
+DegreePerHour = SecondTime**-1.0 * Unitless**1.0 = deg/h
+DegreePerSecond = SecondTime**-1.0 * Unitless**1.0 = deg/s
+DegreePerSecondSquared = SecondTime**-2.0 * Unitless**1.0 = deg/(s^2)
+DegreeRankine = Kelvin**1.0 = degR
+DegreeRankinePerHour = SecondTime**-1.0 * Kelvin**1.0 = degR / h
+DegreeRankinePerMinute = SecondTime**-1.0 * Kelvin**1.0 = degR / m
+DegreeRankinePerSecond = SecondTime**-1.0 * Kelvin**1.0 = degR / s
+Diopter = Meter**-1.0 = D
+DryGallonUS = Meter**3.0 = dry_gal
+DryPintUS = Meter**3.0 = dry_pt
+DryQuartUS = Meter**3.0 = dry_qt
+Dyne = Meter**1.0 * SecondTime**-2.0 * Kilogram**1.0 = dyn
+DyneCentimeter = SecondTime**-2.0 * Kilogram**1.0 * Meter**2.0 = dyn-cm
+DynePerSquareCentimeter = Meter**-1.0 * SecondTime**-2.0 * Kilogram**1.0 = dyn/cm^2
+ElectronVolt = SecondTime**-2.0 * Kilogram**1.0 * Meter**2.0 = eV
+ElectronVoltPerTesla = Meter**2.0 * Ampere**1.0 = eV T^-1
+ElectronVoltSecond = SecondTime**-1.0 * Kilogram**1.0 * Meter**2.0 = eV s
+Erg = SecondTime**-2.0 * Kilogram**1.0 * Meter**2.0 = erg
+ErgPerCubicCentimeter = Meter**-1.0 * SecondTime**-2.0 * Kilogram**1.0 = erg/cm^3
+ErgPerSecond = Kilogram**1.0 * Meter**2.0 * SecondTime**-3.0 = erg/s
+ErgPerSquareCentimeterSecond = Kilogram**1.0 * SecondTime**-3.0 = erg/(cm^2-s)
+ErgSecond = SecondTime**-1.0 * Kilogram**1.0 * Meter**2.0 = erg s
+Farad = Meter**-1.0 * SecondTime**2.0 * Meter**1.0 * Meter**-2.0 * Ampere**2.0 * SecondTime**4.0 = F
+FaradPerMeter = SecondTime**2.0 * Meter**-2.0 * Unitless**1.0 * Meter**-3.0 * Ampere**2.0 * SecondTime**4.0 = F m^-1
+Faraday = Kilogram**0.5 * Meter**0.5 * SecondTime**-1.0 * Meter**1.5 * SecondTime**1.0 * Ampere**1.0 = F
+Fathom = Meter**1.0 = fath
+Femtometer = Meter**1.0 = fm
+Fermi = Meter**1.0 = fm
+Foot = Meter**1.0 = ft
+FootCandle = Meter**-2.0 * Unitless**1.0 * Candela**1.0 = fc
+FootLambert = Meter**-2.0 * Candela**1.0 = ft-L
+FootOfWater = Meter**-1.0 * SecondTime**-2.0 * Kilogram**1.0 = ftH2O
+FootPerHour = Meter**1.0 * SecondTime**-1.0 = ft/hr
+FootPerMinute = Meter**1.0 * SecondTime**-1.0 = ft/min
+FootPerSecond = Meter**1.0 * SecondTime**-1.0 = ft/s
+FootPerSecondSquared = Meter**1.0 * SecondTime**-2.0 = ft/s^2
+FootPoundForce = SecondTime**-2.0 * Kilogram**1.0 * Meter**2.0 = ft-lbf
+FootPoundForcePerHour = Kilogram**1.0 * Meter**2.0 * SecondTime**-3.0 = ft-lbf/hr
+FootPoundForcePerMinute = Kilogram**1.0 * Meter**2.0 * SecondTime**-3.0 = ft-lbf/min
+FootPoundForcePerSecond = Kilogram**1.0 * Meter**2.0 * SecondTime**-3.0 = ft-lbf/s
+FootPoundForcePerSquareFoot = SecondTime**-2.0 * Kilogram**1.0 = ft-lbf/ft^2
+FootPoundForcePerSquareFootSecond = Kilogram**1.0 * SecondTime**-3.0 = ft-lbf(ft^2-s)
+FootPoundForcePerSquareMeter = SecondTime**-2.0 * Kilogram**1.0 = ft-lbf/m^2
+FootPoundForceSecond = SecondTime**-1.0 * Kilogram**1.0 * Meter**2.0 = lbf / s
+FootPoundal = SecondTime**-2.0 * Kilogram**1.0 * Meter**2.0 = ft-pdl
+FootUSSurvey = Meter**1.0 = ft
+FractionalArea = Unitless**1.0 = fa
+Franklin = Kilogram**0.5 * Meter**0.5 * SecondTime**-1.0 * Meter**1.5 * SecondTime**1.0 * Ampere**1.0 = Fr
+Furlong = Meter**1.0 = fur
+Gal = Meter**1.0 * SecondTime**-2.0 = Gal
+GallonImperial = Meter**3.0 = gal
+GallonUS = Meter**3.0 = gal
+GallonUSPerDay = SecondTime**-1.0 * Meter**3.0 = gal/d
+GallonUSPerMinute = SecondTime**-1.0 * Meter**3.0 = gal/min
+Gamma = Kilogram**0.5 * Meter**-0.5 * SecondTime**-1.0 * Meter**-1.5 * Kilogram**1.0 * SecondTime**-2.0 * Ampere**-1.0 = gamma
+Gauss = Kilogram**0.5 * Meter**-0.5 * SecondTime**-1.0 * Meter**-1.5 * Kilogram**1.0 * SecondTime**-2.0 * Ampere**-1.0 = G
+GigaElectronVolt = SecondTime**-2.0 * Kilogram**1.0 * Meter**2.0 = GeV
+GigaHertz = SecondTime**-1.0 = GHz
+Gilbert = Kilogram**0.5 * SecondTime**-1.0 * Meter**0.5 * SecondTime**-2.0 * Meter**1.5 * Unitless**1.0 * Ampere**1.0 = Gi
+Gon = Unitless**1.0 = gon
+Grad = Unitless**1.0 = grad
+Grade = Unitless**1.0 = gr
+Grain = Kilogram**1.0 = gr
+GrainPerGallon = Kilogram**1.0 * Meter**-3.0 = gr/gal
+GramDegreeCelsius = Kilogram**1.0 * Kelvin**1.0 = g-degC
+Gravity = Meter**1.0 * SecondTime**-2.0 = G
+GrayPerSecond = Meter**2.0 * SecondTime**-3.0 = Gy/s
+Hartree = SecondTime**-2.0 * Kilogram**1.0 * Meter**2.0 = E_h
+Hectare = Meter**2.0 = ha
+Henry = Meter**1.0 * Meter**-1.0 * SecondTime**2.0 * SecondTime**-2.0 * Kilogram**1.0 * Meter**2.0 * Ampere**-2.0 = H
+HenryPerMeter = Unitless**1.0 * SecondTime**2.0 * Meter**-2.0 * Meter**1.0 * SecondTime**-2.0 * Kilogram**1.0 * Ampere**-2.0 = H/m
+Hertz = SecondTime**-1.0 = Hz
+HertzPerKelvin = SecondTime**-1.0 * Kelvin**-1.0 = Hz K^-1
+HertzPerTesla = SecondTime**1.0 * Ampere**1.0 = Hz T^-1
+HertzPerVolt = SecondTime**2.0 * Meter**-2.0 * Ampere**1.0 = Hz V^-1
+Horsepower = Kilogram**1.0 * Meter**2.0 * SecondTime**-3.0 = HP
+HorsepowerBoiler = Kilogram**1.0 * Meter**2.0 * SecondTime**-3.0 = hp/boiler
+HorsepowerElectric = Kilogram**1.0 * Meter**2.0 * SecondTime**-3.0 = hp/V
+HorsepowerMetric = Kilogram**1.0 * Meter**2.0 * SecondTime**-3.0 = hp/m
+HorsepowerWater = Kilogram**1.0 * Meter**2.0 * SecondTime**-3.0 = hp/H2O
+Hour = SecondTime**1.0 = hr
+HourSidereal = SecondTime**1.0 = hr
+HourSquareFoot = SecondTime**1.0 * Meter**2.0 = hr-ft^2
+HundredWeightLong = Kilogram**1.0 = cwt
+HundredWeightShort = Kilogram**1.0 = cwt
+Inch = Meter**1.0 = in
+InchOfMercury = Meter**-1.0 * SecondTime**-2.0 * Kilogram**1.0 = inHg
+InchOfWater = Meter**-1.0 * SecondTime**-2.0 * Kilogram**1.0 = inAq
+InchPerSecondSquared = Meter**1.0 * SecondTime**-2.0 = in/s^2
+InchPoundForce = SecondTime**-2.0 * Kilogram**1.0 * Meter**2.0 = in-lbf
+InternationalUnit = Mole**1.0 = IU
+Joule = SecondTime**-2.0 * Kilogram**1.0 * Meter**2.0 = J
+JouleMeterPerMole = SecondTime**-2.0 * Kilogram**1.0 * Meter**3.0 * Mole**-1.0 = J m mol^-1
+JoulePerCubicMeter = Meter**-1.0 * SecondTime**-2.0 * Kilogram**1.0 = J/m^3
+JoulePerCubicMeterKelvin = Meter**-1.0 * SecondTime**-2.0 * Kilogram**1.0 * Kelvin**-1.0 = J/(m^3 K)
+JoulePerKilogram = SecondTime**-2.0 * Meter**2.0 = J/kg
+JoulePerKilogramKelvin = SecondTime**-2.0 * Meter**2.0 * Kelvin**-1.0 = J/(kg-K)
+JoulePerKilogramKelvinPerCubicMeter = Meter**-1.0 * SecondTime**-2.0 * Kelvin**-1.0 = J/(kg-K-m^3)
+JoulePerKilogramKelvinPerPascal = Meter**3.0 * Kelvin**-1.0 = J/(km-K-Pa)
+JoulePerMole = SecondTime**-2.0 * Kilogram**1.0 * Meter**2.0 * Mole**-1.0 = J/mol
+JoulePerMoleKelvin = SecondTime**-2.0 * Kilogram**1.0 * Meter**2.0 * Kelvin**-1.0 * Mole**-1.0 = J mol^-1 K^-1
+JoulePerSquareMeter = SecondTime**-2.0 * Kilogram**1.0 = J/m^2
+JoulePerSquareTesla = SecondTime**2.0 * Meter**2.0 * Ampere**2.0 = J T^-2
+JoulePerTesla = Meter**2.0 * Ampere**1.0 = J T^-1
+JouleSecond = SecondTime**-1.0 * Kilogram**1.0 * Meter**2.0 = J s
+JouleSecondPerMole = SecondTime**-1.0 * Kilogram**1.0 * Meter**2.0 * Mole**-1.0 = J s mol^-1
+Katal = SecondTime**-1.0 * Mole**1.0 = kat
+KelvinPerHour = SecondTime**-1.0 * Kelvin**1.0 = K / h
+KelvinPerMinute = SecondTime**-1.0 * Kelvin**1.0 = K / m
+KelvinPerSecond = SecondTime**-1.0 * Kelvin**1.0 = K / s
+KelvinPerTesla = SecondTime**2.0 * Kelvin**1.0 * Ampere**1.0 = K T^-1
+KelvinPerWatt = Meter**-2.0 * Kelvin**1.0 * SecondTime**3.0 = K/W
+KiloElectronVolt = SecondTime**-2.0 * Kilogram**1.0 * Meter**2.0 = keV
+KiloHertz = SecondTime**-1.0 = KHz
+KiloPascal = Meter**-1.0 * SecondTime**-2.0 * Kilogram**1.0 = KPa
+KiloPascalAbsolute = Meter**-1.0 * SecondTime**-2.0 * Kilogram**1.0 = KPaA
+KiloPond = Meter**1.0 * SecondTime**-2.0 * Kilogram**1.0 = kp
+Kilocalorie = SecondTime**-2.0 * Kilogram**1.0 * Meter**2.0 = kcal
+KilocaloriePerCentimeterSecondDegreeCelsius = Meter**1.0 * Kilogram**1.0 * SecondTime**-3.0 * Kelvin**-1.0 = cal/(cm-s-degC)
+KilocaloriePerGram = SecondTime**-2.0 * Meter**2.0 = kcal/gm
+KilocaloriePerGramDegreeCelsius = SecondTime**-2.0 * Meter**2.0 * Kelvin**-1.0 = kcal/(gm-degC)
+KilocaloriePerMinute = Kilogram**1.0 * Meter**2.0 * SecondTime**-3.0 = kcal/min
+KilocaloriePerMole = SecondTime**-2.0 * Kilogram**1.0 * Meter**2.0 * Mole**-1.0 = kcal/mol
+KilocaloriePerMoleDegreeCelsius = SecondTime**-2.0 * Kilogram**1.0 * Meter**2.0 * Kelvin**-1.0 * Mole**-1.0 = kcal/(mol-degC)
+KilocaloriePerSecond = Kilogram**1.0 * Meter**2.0 * SecondTime**-3.0 = kcal/s
+KilocaloriePerSquareCentimeter = SecondTime**-2.0 * Kilogram**1.0 = kcal/cm^2
+KilocaloriePerSquareCentimeterMinute = Kilogram**1.0 * SecondTime**-3.0 = kcal/(cm^2-min)
+KilocaloriePerSquareCentimeterSecond = Kilogram**1.0 * SecondTime**-3.0 = kcal/(cm^2-s)
+KilogramForce = Meter**1.0 * SecondTime**-2.0 * Kilogram**1.0 = kgf
+KilogramForceMeter = SecondTime**-2.0 * Kilogram**1.0 * Meter**2.0 = kgf-m
+KilogramForcePerSquareCentimeter = Meter**-1.0 * SecondTime**-2.0 * Kilogram**1.0 = kgf/cm^2
+KilogramKelvin = Kilogram**1.0 * Kelvin**1.0 = kg-K
+KilogramMeterPerSecond = Meter**1.0 * SecondTime**-1.0 * Kilogram**1.0 = kg m s^-1
+KilogramMeterSquared = Kilogram**1.0 * Meter**2.0 = kg-m^2
+KilogramPerCubicMeter = Kilogram**1.0 * Meter**-3.0 = kg/m^3
+KilogramPerHour = SecondTime**-1.0 * Kilogram**1.0 = kg/h
+KilogramPerMeter = Meter**-1.0 * Kilogram**1.0 = kg/m
+KilogramPerMole = Kilogram**1.0 * Mole**-1.0 = kg mol^-1
+KilogramPerSecond = SecondTime**-1.0 * Kilogram**1.0 = kg/s
+KilogramPerSquareMeter = Meter**-2.0 * Kilogram**1.0 = kg/m^2
+Kilometer = Meter**1.0 = km
+KilometerPerHour = Meter**1.0 * SecondTime**-1.0 = km/hr
+KilometerPerSecond = Meter**1.0 * SecondTime**-1.0 = km/s
+Kilowatt = Kilogram**1.0 * Meter**2.0 * SecondTime**-3.0 = kW
+Kilowatthour = SecondTime**-2.0 * Kilogram**1.0 * Meter**2.0 = kW-hr
+Kip = Meter**1.0 * SecondTime**-2.0 * Kilogram**1.0 = kip
+KipPerSquareInch = Meter**-1.0 * SecondTime**-2.0 * Kilogram**1.0 = kip/in^2
+Knot = Meter**1.0 * SecondTime**-1.0 = kn
+KnotPerSecond = Meter**1.0 * SecondTime**-2.0 = kt/s
+Lambert = Meter**-2.0 * Candela**1.0 = L
+LightYear = Meter**1.0 = ly
+LiquidCupUS = Meter**3.0 = cup
+LiquidOunceUS = Meter**3.0 = oz
+LiquidPintUS = Meter**3.0 = pt
+LiquidQuartUS = Meter**3.0 = qt
+Liter = Meter**3.0 = L
+Lumen = Unitless**1.0 * Candela**1.0 = lm
+Lux = Meter**-2.0 * Unitless**1.0 * Candela**1.0 = lx
+Maxwell = Kilogram**0.5 * SecondTime**-1.0 * Meter**1.5 * Meter**0.5 * SecondTime**-2.0 * Kilogram**1.0 * Meter**2.0 * Ampere**-1.0 = Mx
+MegaElectronVolt = SecondTime**-2.0 * Kilogram**1.0 * Meter**2.0 = MeV
+MegaElectronVoltFemtometer = SecondTime**-2.0 * Kilogram**1.0 * Meter**3.0 = MeV fm
+MegaElectronVoltPerSpeedOfLight = Meter**1.0 * SecondTime**-1.0 * Kilogram**1.0 = MeV/c
+MegaHertz = SecondTime**-1.0 = MHz
+MegaHertzPerKelvin = SecondTime**-1.0 * Kelvin**-1.0 = MHz K^-1
+MegaHertzPerTesla = SecondTime**1.0 * Ampere**1.0 = MHz T^-1
+MeterKelvin = Meter**1.0 * Kelvin**1.0 = m K
+MeterKelvinPerWatt = Meter**-1.0 * Kelvin**1.0 * SecondTime**3.0 = K-m/W
+MeterKilogram = Meter**1.0 * Kilogram**1.0 = m-kg
+MeterPerFarad = Kilogram**1.0 * Meter**3.0 * Ampere**-2.0 * SecondTime**-4.0 = m/F
+MeterPerHour = Meter**1.0 * SecondTime**-1.0 = m h^-1
+MeterPerKelvin = Meter**1.0 * Kelvin**-1.0 = m/K
+MeterPerMinute = Meter**1.0 * SecondTime**-1.0 = m min^-1
+MeterPerSecond = Meter**1.0 * SecondTime**-1.0 = m s^-1
+MeterPerSecondSquared = Meter**1.0 * SecondTime**-2.0 = m s^-2
+MetricTon = Kilogram**1.0 = mT
+Mho = Meter**-1.0 * SecondTime**1.0 * Meter**-2.0 * SecondTime**3.0 * Ampere**2.0 = mho
+MicroFarad = Meter**-1.0 * SecondTime**2.0 * Meter**1.0 * Meter**-2.0 * Ampere**2.0 * SecondTime**4.0 = microF
+MicroHenry = Meter**1.0 * Meter**-1.0 * SecondTime**2.0 * SecondTime**-2.0 * Kilogram**1.0 * Meter**2.0 * Ampere**-2.0 = microH
+MicroInch = Meter**1.0 = in^-6
+MicroSecond = SecondTime**1.0 = microsec
+MicroTorr = Meter**-1.0 * SecondTime**-2.0 * Kilogram**1.0 = µtorr
+Microgravity = Meter**1.0 * SecondTime**-2.0 = microG
+Micrometer = Meter**1.0 = µm
+MilAngle = Unitless**1.0 = mil
+MilLength = Meter**1.0 = mil
+MileInternational = Meter**1.0 = mi
+MilePerHour = Meter**1.0 * SecondTime**-1.0 = mi/hr
+MilePerMinute = Meter**1.0 * SecondTime**-1.0 = mi/min
+MileUSStatute = Meter**1.0 = mi
+MilliHenry = Meter**1.0 * Meter**-1.0 * SecondTime**2.0 * SecondTime**-2.0 * Kilogram**1.0 * Meter**2.0 * Ampere**-2.0 = milliH
+MilliSecond = SecondTime**1.0 = ms
+MilliTorr = Meter**-1.0 * SecondTime**-2.0 * Kilogram**1.0 = utorr
+Millibar = Meter**-1.0 * SecondTime**-2.0 * Kilogram**1.0 = mbar
+Milligravity = Meter**1.0 * SecondTime**-2.0 = mG
+Millimeter = Meter**1.0 = mm
+MillimeterOfMercury = Meter**-1.0 * SecondTime**-2.0 * Kilogram**1.0 = mmHg
+MillimeterOfMercuryAbsolute = Meter**-1.0 * SecondTime**-2.0 * Kilogram**1.0 = mmHgA
+MinuteAngle = Unitless**1.0 = '
+MinuteSidereal = SecondTime**1.0 = min
+MinuteTime = SecondTime**1.0 = min
+MoleDegreeCelsius = Kelvin**1.0 * Mole**1.0 = mol-degC
+MoleKelvin = Kelvin**1.0 * Mole**1.0 = mol-K
+MolePerCubicMeter = Meter**-3.0 * Mole**1.0 = mol/m^3
+MolePerKilogram = Meter**-3.0 * Mole**1.0 = mol/kg
+NanoFarad = Meter**-1.0 * SecondTime**2.0 * Meter**1.0 * Meter**-2.0 * Ampere**2.0 * SecondTime**4.0 = nF
+NauticalMile = Meter**1.0 = n mile
+NauticalMilePerHour = Meter**1.0 * SecondTime**-1.0 = nmi/hr
+NauticalMilePerMinute = Meter**1.0 * SecondTime**-1.0 = nmi/min
+Newton = Meter**1.0 * SecondTime**-2.0 * Kilogram**1.0 = N
+NewtonMeter = SecondTime**-2.0 * Kilogram**1.0 * Meter**2.0 = N-m
+NewtonPerCoulomb = Meter**1.0 * Kilogram**1.0 * SecondTime**-3.0 * Ampere**-1.0 = N/C
+NewtonPerKilogram = Meter**1.0 * SecondTime**-2.0 = N/kg
+NewtonPerMeter = SecondTime**-2.0 * Kilogram**1.0 = N/m
+Number = Unitless**1.0 = #
+NumberPerYear = Unitless**1.0 * SecondTime**-1.0 = #/yr
+Oersted = Kilogram**0.5 * Meter**-0.5 * SecondTime**-1.0 = Oe
+OerstedCentimeter = Kilogram**0.5 * SecondTime**-1.0 * Meter**0.5 * SecondTime**-2.0 * Meter**1.5 * Unitless**1.0 * Ampere**1.0 = Oe-cm
+Ohm = Meter**1.0 * SecondTime**-1.0 * Meter**-1.0 * SecondTime**1.0 * Kilogram**1.0 * Meter**2.0 * SecondTime**-3.0 * Ampere**-2.0 = ohm
+OunceForce = Meter**1.0 * SecondTime**-2.0 * Kilogram**1.0 = ozf
+OunceForceInch = SecondTime**-2.0 * Kilogram**1.0 * Meter**2.0 = ozf-in
+OunceImperial = Meter**3.0 = oz
+OunceMass = Kilogram**1.0 = ozm
+OuncePerCubicInch = Kilogram**1.0 * Meter**-3.0 = oz/in^3
+OuncePerGallon = Kilogram**1.0 * Meter**-3.0 = oz/gal
+OuncePerSquareFoot = Meter**-2.0 * Kilogram**1.0 = oz/ft^2
+OuncePerSquareYard = Meter**-2.0 * Kilogram**1.0 = oz/yd^2
+OunceTroy = Kilogram**1.0 = oz
+Parsec = Meter**1.0 = pc
+Pascal = Meter**-1.0 * SecondTime**-2.0 * Kilogram**1.0 = Pa
+PascalPerHour = Meter**-1.0 * Kilogram**1.0 * SecondTime**-3.0 = P / hr
+PascalPerSecond = Meter**-1.0 * Kilogram**1.0 * SecondTime**-3.0 = P / s
+PascalSecond = Meter**-1.0 * SecondTime**-1.0 * Kilogram**1.0 = Pa-s
+Peck = Meter**3.0 = pk
+PennyWeight = Kilogram**1.0 = dwt
+PerCubicMeter = Meter**-3.0 = m^-3
+PerMeter = Meter**-1.0 = m^-1
+PerMeterKelvin = Meter**-1.0 * Kelvin**-1.0 = m^-1 K^-1
+PerMole = Mole**-1.0 = mol^-1
+PerSecond = SecondTime**-1.0 = s^-1
+PerSquareGigaElectronVolt = Kilogram**-2.0 * SecondTime**4.0 * Meter**-4.0 = GeV^-2
+PerTeslaMeter = Meter**-1.0 * SecondTime**2.0 * Ampere**1.0 = m^-1 T^-1
+PerTeslaSecond = SecondTime**1.0 * Ampere**1.0 = s^-1 T^-1
+Percent = Unitless**1.0 = %
+Phot = Meter**-2.0 * Unitless**1.0 * Candela**1.0 = ph
+Pica = Meter**1.0 = Pm
+PicoFarad = Meter**-1.0 * SecondTime**2.0 * Meter**1.0 * Meter**-2.0 * Ampere**2.0 * SecondTime**4.0 = pF
+PintImperial = Meter**3.0 = pi
+Point = Meter**1.0 = pt
+Poise = Meter**-1.0 * SecondTime**-1.0 * Kilogram**1.0 = P
+PoundDegreeFahrenheit = Kilogram**1.0 * Kelvin**1.0 = lb-degF
+PoundDegreeRankine = Kilogram**1.0 * Kelvin**1.0 = lb-degR
+PoundForce = Meter**1.0 * SecondTime**-2.0 * Kilogram**1.0 = lbf
+PoundForceFoot = SecondTime**-2.0 * Kilogram**1.0 * Meter**2.0 = lbf-ft
+PoundForceInch = SecondTime**-2.0 * Kilogram**1.0 * Meter**2.0 = lbf-in
+PoundForcePerFoot = SecondTime**-2.0 * Kilogram**1.0 = lbf/ft
+PoundForcePerInch = SecondTime**-2.0 * Kilogram**1.0 = lbf/in
+PoundForcePerPound = Meter**1.0 * SecondTime**-2.0 = lbf/lb
+PoundForcePerSquareFoot = Meter**-1.0 * SecondTime**-2.0 * Kilogram**1.0 = lbf/ft^2
+PoundForcePerSquareInch = Meter**-1.0 * SecondTime**-2.0 * Kilogram**1.0 = psi
+PoundForcePerSquareInchSecond = Meter**-1.0 * Kilogram**1.0 * SecondTime**-3.0 = lbf / in^2-s
+PoundForceSecondPerSquareFoot = Meter**-1.0 * SecondTime**-1.0 * Kilogram**1.0 = lbf-s/ft^2
+PoundForceSecondPerSquareInch = Meter**-1.0 * SecondTime**-1.0 * Kilogram**1.0 = lbf-s/in^2
+PoundMass = Kilogram**1.0 = lbm
+PoundPerCubicFoot = Kilogram**1.0 * Meter**-3.0 = lb/ft^3
+PoundPerCubicInch = Kilogram**1.0 * Meter**-3.0 = lb/in^3
+PoundPerCubicMeter = Kilogram**1.0 * Meter**-3.0 = lbm/m^3
+PoundPerCubicYard = Kilogram**1.0 * Meter**-3.0 = lb/yd^3
+PoundPerFoot = Meter**-1.0 * Kilogram**1.0 = lb/ft
+PoundPerFootHour = Meter**-1.0 * SecondTime**-1.0 * Kilogram**1.0 = lb/(ft-hr)
+PoundPerFootSecond = Meter**-1.0 * SecondTime**-1.0 * Kilogram**1.0 = lb/(ft-s)
+PoundPerGallon = Kilogram**1.0 * Meter**-3.0 = lb/gal
+PoundPerHour = SecondTime**-1.0 * Kilogram**1.0 = lb/hr
+PoundPerInch = Meter**-1.0 * Kilogram**1.0 = lb/in
+PoundPerMinute = SecondTime**-1.0 * Kilogram**1.0 = lb/min
+PoundPerSquareFoot = Meter**-2.0 * Kilogram**1.0 = lb/ft^2
+PoundTroy = Kilogram**1.0 = lbm
+Poundal = Meter**1.0 * SecondTime**-2.0 * Kilogram**1.0 = pdl
+PoundalPerSquareFoot = Meter**-1.0 * SecondTime**-2.0 * Kilogram**1.0 = pdl/ft^2
+Quad = SecondTime**-2.0 * Kilogram**1.0 * Meter**2.0 = quad
+QuarticCoulombMeterPerCubicEnergy = Meter**-2.0 * Ampere**4.0 * Kilogram**-3.0 * SecondTime**10.0 = C^4 m^4 J^-3
+Radian = Unitless**1.0 = rad
+RadianPerHour = SecondTime**-1.0 * Unitless**1.0 = rad/h
+RadianPerMinute = SecondTime**-1.0 * Unitless**1.0 = rad/m
+RadianPerSecond = SecondTime**-1.0 * Unitless**1.0 = rad/s
+RadianPerSecondSquared = SecondTime**-2.0 * Unitless**1.0 = rad/s^2
+RegisterTon = Meter**3.0 = RT
+RelativePermeability = Unitless**1.0 * SecondTime**2.0 * Meter**-2.0 * Meter**1.0 * SecondTime**-2.0 * Kilogram**1.0 * Ampere**-2.0 = μr
+RelativePermittivity = SecondTime**2.0 * Meter**-2.0 * Unitless**1.0 * Meter**-3.0 * Ampere**2.0 * SecondTime**4.0 = εr
+Revolution = Unitless**1.0 = rev
+RevolutionPerHour = SecondTime**-1.0 * Unitless**1.0 = rev/h
+RevolutionPerMinute = SecondTime**-1.0 * Unitless**1.0 = rev/min
+RevolutionPerSecond = SecondTime**-1.0 * Unitless**1.0 = rev/s
+Rod = Meter**1.0 = rd
+SecondAngle = Unitless**1.0 = "
+SecondSquareFoot = SecondTime**1.0 * Meter**2.0 = s-ft^2
+SecondTimeSquared = SecondTime**2.0 = s^2
+Shake = SecondTime**1.0 = Sh
+Siemens = Meter**-1.0 * SecondTime**1.0 * Meter**-2.0 * SecondTime**3.0 * Ampere**2.0 = S
+Slug = Kilogram**1.0 = slug
+SlugPerCubicFoot = Kilogram**1.0 * Meter**-3.0 = slug/ft^3
+SlugPerFoot = Meter**-1.0 * Kilogram**1.0 = slug/ft
+SlugPerFootSecond = Meter**-1.0 * SecondTime**-1.0 * Kilogram**1.0 = slug/(ft-s)
+SlugPerSecond = SecondTime**-1.0 * Kilogram**1.0 = slug/s
+SlugPerSquareFoot = Meter**-2.0 * Kilogram**1.0 = slug/ft^2
+SquareCentimeter = Meter**2.0 = cm^2
+SquareCentimeterMinute = SecondTime**1.0 * Meter**2.0 = cm^2-m
+SquareCentimeterSecond = SecondTime**1.0 * Meter**2.0 = cm^2-s
+SquareCoulombMeterPerJoule = Ampere**2.0 * SecondTime**4.0 = C^2 m^2 J^-1
+SquareDegree = Unitless**1.0 = deg^2
+SquareFoot = Meter**2.0 = ft^2
+SquareFootDegreeFahrenheit = Meter**2.0 * Kelvin**1.0 = ft^2-degF
+SquareFootHourDegreeFahrenheit = SecondTime**1.0 * Meter**2.0 * Kelvin**1.0 = ft^2-hr-degF
+SquareFootHourDegreeFahrenheitPerBtu = Kelvin**1.0 * SecondTime**3.0 = (degF-hr-ft^2)/Btu
+SquareFootPerBtuInch = Meter**-1.0 * Kelvin**1.0 * SecondTime**3.0 = ft^2/(Btu-in)
+SquareFootSecondDegreeFahrenheit = SecondTime**1.0 * Meter**2.0 * Kelvin**1.0 = ft^2-s-degF
+SquareInch = Meter**2.0 = in^2
+SquareMeter = Meter**2.0 = m^2
+SquareMeterKelvin = Meter**2.0 * Kelvin**1.0 = m^2-K
+SquareMeterKelvinPerWatt = Kelvin**1.0 * SecondTime**3.0 = (K^2)m/W
+SquareMeterPerKelvin = Meter**2.0 * Kelvin**-1.0 = m^2/K
+SquareMeterPerSecond = SecondTime**-1.0 * Meter**2.0 = m^2 s^-1
+SquareMeterSteradian = Unitless**1.0 * Meter**2.0 = m^2-sr
+SquareMile = Meter**2.0 = mi^2
+SquareYard = Meter**2.0 = yd^2
+Statampere = Kilogram**0.5 * SecondTime**-1.0 * Meter**0.5 * SecondTime**-2.0 * Meter**1.5 * Ampere**1.0 = statA
+Statcoulomb = Kilogram**0.5 * Meter**0.5 * SecondTime**-1.0 * Meter**1.5 * SecondTime**1.0 * Ampere**1.0 = statC
+StatcoulombPerMole = SecondTime**1.0 * Ampere**1.0 * Mole**-1.0 = statC/mol
+StatcoulombPerSquareCentimeter = Kilogram**0.5 * Meter**-1.5 * Meter**-0.5 * SecondTime**-1.0 * SecondTime**1.0 * Meter**-2.0 * Ampere**1.0 = statC/cm^2
+Statfarad = Meter**-1.0 * SecondTime**2.0 * Meter**1.0 * Meter**-2.0 * Ampere**2.0 * SecondTime**4.0 = statF
+Stathenry = Meter**1.0 * Meter**-1.0 * SecondTime**2.0 * SecondTime**-2.0 * Kilogram**1.0 * Meter**2.0 * Ampere**-2.0 = statH
+StathenryPerCentimeter = Unitless**1.0 * SecondTime**2.0 * Meter**-2.0 * Meter**1.0 * SecondTime**-2.0 * Kilogram**1.0 * Ampere**-2.0 = statH/cm
+Statmho = Meter**-1.0 * SecondTime**1.0 * Meter**-2.0 * SecondTime**3.0 * Ampere**2.0 = statS
+Statohm = Meter**1.0 * SecondTime**-1.0 * Meter**-1.0 * SecondTime**1.0 * Kilogram**1.0 * Meter**2.0 * SecondTime**-3.0 * Ampere**-2.0 = statOhm
+Statvolt = Kilogram**0.5 * SecondTime**-2.0 * Meter**1.5 * SecondTime**-1.0 * Meter**0.5 * Kilogram**1.0 * Meter**2.0 * SecondTime**-3.0 * Ampere**-1.0 = statV
+StatvoltCentimeter = Kilogram**1.0 * SecondTime**-3.0 * Meter**3.0 * Ampere**-1.0 = statV cm
+StatvoltPerCentimeter = Kilogram**0.5 * Meter**0.5 * SecondTime**-2.0 * Meter**-0.5 * SecondTime**-1.0 * Meter**1.0 * Kilogram**1.0 * SecondTime**-3.0 * Ampere**-1.0 = statV/cm
+Steradian = Unitless**1.0 = sr
+Stere = Meter**3.0 = st
+Stilb = Meter**-2.0 * Candela**1.0 = sb
+Tablespoon = Meter**3.0 = tbsp
+Teaspoon = Meter**3.0 = tsp
+Tesla = Kilogram**0.5 * Meter**-0.5 * SecondTime**-1.0 * Meter**-1.5 * Kilogram**1.0 * SecondTime**-2.0 * Ampere**-1.0 = T
+TeslaMeter = Meter**1.0 * SecondTime**-2.0 * Kilogram**1.0 * Ampere**-1.0 = m T
+TeslaSecond = SecondTime**-1.0 * Kilogram**1.0 * Ampere**-1.0 = s T
+Tex = Meter**-1.0 * Kilogram**1.0 = tex
+ThermEEC = SecondTime**-2.0 * Kilogram**1.0 * Meter**2.0 = therm (EC)
+ThermUS = SecondTime**-2.0 * Kilogram**1.0 * Meter**2.0 = therm (US)
+TonAssay = Kilogram**1.0 = AT
+TonEnergy = SecondTime**-2.0 * Kilogram**1.0 * Meter**2.0 = t/lbf
+TonLong = Kilogram**1.0 = ton
+TonLongPerCubicYard = Kilogram**1.0 * Meter**-3.0 = ton/yd^3
+TonOfOilEquivalent = SecondTime**-2.0 * Kilogram**1.0 * Meter**2.0 = toe
+TonOfRefrigeration = Kilogram**1.0 * Meter**2.0 * SecondTime**-3.0 = t/fg
+TonShort = Kilogram**1.0 = ton
+TonShortPerCubicYard = Kilogram**1.0 * Meter**-3.0 = ton/yd
+TonShortPerHour = SecondTime**-1.0 * Kilogram**1.0 = ton/hr
+Torr = Meter**-1.0 * SecondTime**-2.0 * Kilogram**1.0 = torr
+UnifiedAtomicMassUnit = Kilogram**1.0 = u
+UnitPole = Kilogram**0.5 * SecondTime**-1.0 * Meter**1.5 * Meter**0.5 * SecondTime**-2.0 * Kilogram**1.0 * Meter**2.0 * Ampere**-1.0 = U/nWb
+Volt = Kilogram**0.5 * SecondTime**-2.0 * Meter**1.5 * SecondTime**-1.0 * Meter**0.5 * Kilogram**1.0 * Meter**2.0 * SecondTime**-3.0 * Ampere**-1.0 = V
+VoltMeter = Kilogram**1.0 * SecondTime**-3.0 * Meter**3.0 * Ampere**-1.0 = m V
+VoltPerMeter = Kilogram**0.5 * Meter**0.5 * SecondTime**-2.0 * Meter**-0.5 * SecondTime**-1.0 * Meter**1.0 * Kilogram**1.0 * SecondTime**-3.0 * Ampere**-1.0 = V m^-1
+VoltPerSecond = Kilogram**1.0 * Meter**2.0 * Ampere**-1.0 * SecondTime**-4.0 = V / sec
+VoltPerSquareMeter = Kilogram**1.0 * SecondTime**-3.0 * Ampere**-1.0 = V m^-2
+Watt = Kilogram**1.0 * Meter**2.0 * SecondTime**-3.0 = W
+WattPerMeterKelvin = Meter**1.0 * Kilogram**1.0 * SecondTime**-3.0 * Kelvin**-1.0 = W/(m*K)
+WattPerSquareCentimeter = Kilogram**1.0 * SecondTime**-3.0 = W/cm^2
+WattPerSquareFoot = Kilogram**1.0 * SecondTime**-3.0 = W/ft^2
+WattPerSquareInch = Kilogram**1.0 * SecondTime**-3.0 = W/in^2
+WattPerSquareMeter = Kilogram**1.0 * SecondTime**-3.0 = W/m^2
+WattPerSquareMeterKelvin = Kilogram**1.0 * SecondTime**-3.0 * Kelvin**-1.0 = W/(m^2-K)
+WattPerSquareMeterQuarticKelvin = Kilogram**1.0 * SecondTime**-3.0 * Kelvin**-4.0 = W m^-2 K^-4
+WattPerSquareMeterSteradian = Kilogram**1.0 * SecondTime**-3.0 * Unitless**-1.0 = W/(m^2-sr)
+WattSquareMeter = Kilogram**1.0 * SecondTime**-3.0 * Meter**4.0 = W m^2
+WattSquareMeterPerSteradian = Kilogram**1.0 * SecondTime**-3.0 * Unitless**-1.0 * Meter**4.0 = W m^2 sr^-1
+Watthour = SecondTime**-2.0 * Kilogram**1.0 * Meter**2.0 = W-hr
+Weber = Kilogram**0.5 * SecondTime**-1.0 * Meter**1.5 * Meter**0.5 * SecondTime**-2.0 * Kilogram**1.0 * Meter**2.0 * Ampere**-1.0 = Wb
+Yard = Meter**1.0 = yd
+Year365Day = SecondTime**1.0 = yr
+YearSidereal = SecondTime**1.0 = yr
+YearTropical = SecondTime**1.0 = yr
+
